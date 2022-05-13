@@ -3,5 +3,6 @@
 - data goes from Januaray 27th, 2020 to November 22, 2020 (301 days)
 - data before January 27th removed to get rid of noise
 - covid19dataset.ipynb uses the Dickey-Fuller test to make the data stationary and removes seasonality
+  - uses Python3
 - uses linear regression to attempt to predict case counts and case deaths for the future
 - achieved a relative error score of around .03 for both cases and deaths
