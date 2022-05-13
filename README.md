@@ -3,7 +3,7 @@
 - data goes from Januaray 27th, 2020 to November 22, 2020 (301 days)
 - data before January 27th removed to get rid of noise
 - covid19dataset.ipynb uses the Dickey-Fuller test to see if data is stationary
-  - utilizes a logarithmic transformation to remove a multiplicative trend from the data
+  - utilizes a logarithmic transformation to remove the multiplicative trend from the data
   - removes seasonality
   - file uses Python3
 - uses linear regression to attempt to predict case counts and case deaths for the future
