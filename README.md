@@ -5,6 +5,11 @@
 - covid19dataset.ipynb uses the Dickey-Fuller test to see if data is stationary
   - utilizes a logarithmic transformation to remove the multiplicative trend from the data
   - removes seasonality
-  - file uses Python3
-- uses linear regression to attempt to predict case counts and case deaths for the future
+  - .pynb file uses Python3
+- uses linear regression to predict case counts and case deaths for the future
 - achieved a relative error score of around .03 for both cases and deaths
+# Future Directions
+- other forms of seasonality and patterns may show up in the data, especially if broken down by country:
+  - when lockdowns were started and ended
+  - how strict the type of lockdown was
+- a more complicated network, such as an LSTM may improve results
